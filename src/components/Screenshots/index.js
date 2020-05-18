@@ -149,14 +149,16 @@ export default class Screenshots extends PureComponent {
   }
 
   onMagnifyChange = ({ x, y }) => {
-    const { left, top } = this.bodyRef.current.getBoundingClientRect()
+    const { left, top, width, height } = this.bodyRef.current.getBoundingClientRect()
 
-    this.setState({
-      magnifyPoint: {
-        x: x - left,
-        y: y - top
-      }
-    })
+    if (x >= left && x <= left + width && y >= top && y <= top + height) {
+      this.setState({
+        magnifyPoint: {
+          x: x - left,
+          y: y - top
+        }
+      })
+    }
   }
 
   onViewerChange = ({ x1, y1, x2, y2 }) => {
