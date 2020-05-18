@@ -4,7 +4,7 @@
 
 ### Inspire
 
-魔改于screenshots](https://github.com/nashaofu/screenshots)中的截图包
+魔改于[screenshots](https://github.com/nashaofu/screenshots)中的截图包
 
 ### Preview
 [预览](https://hilbertangers.github.io/lovely-frontend-collect/#/screenshots)
