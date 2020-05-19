@@ -35,7 +35,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "react-screenshots": "^0.0.6"
+    "react-screenshots": "git+ssh//git@github.com:Hilbertangers/screenshots.git"
   },
   "peerDependencies": {
     "electron": ">=6"
